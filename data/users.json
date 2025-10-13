@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "email": "aarav@example.com",
+    "password": "aarav123",
+    "profileImage": "images/aarav.jpg",
+    "about": "Aarav Sharma is a passionate Frontend Developer and UI/UX Designer with a keen eye for detail and aesthetics. He has extensive experience in building responsive web applications, designing user-friendly interfaces, and implementing modern frontend technologies. Aarav loves experimenting with new frameworks and design trends, and he enjoys contributing to open-source projects. His main goal is to create seamless and intuitive digital experiences for users, blending functionality with creativity.",
+    "achievements": ["Won College Hackathon 2023", "Best Portfolio Award"],
+    "projects": [
+      {"title": "Portfolio Website", "image": "images/project1.jpg"},
+      {"title": "Task Manager App", "image": "images/project2.jpg"}
+    ]
+  },
+  {
+    "name": "Ananya Patel",
+    "email": "ananya@example.com",
+    "password": "ananya123",
+    "profileImage": "images/ananya.jpg",
+    "about": "Ananya Patel is a Full-stack Developer and Blogger with a deep interest in web development and storytelling. She has worked on multiple full-stack applications, integrating frontend and backend seamlessly. Ananya also writes about technology trends, best coding practices, and tutorials to help new developers grow. She is highly collaborative, enjoys mentoring junior developers, and has a strong understanding of cloud platforms and deployment processes.",
+    "achievements": ["Internship at Microsoft", "Published Article in Tech Blog"],
+    "projects": [
+      {"title": "E-commerce App", "image": "images/project3.jpg"},
+      {"title": "Chat Application", "image": "images/project4.jpg"}
+    ]
+  },
+  {
+    "name": "Rohan Verma",
+    "email": "rohan@example.com",
+    "password": "rohan123",
+    "profileImage": "images/rohan.jpg",
+    "about": "Rohan Verma is a Mobile App Developer who specializes in building Android and iOS applications with a focus on performance and user experience. He has developed apps for various domains including productivity, education, and health. Rohan enjoys learning new technologies, implementing efficient algorithms, and exploring the intersection of design and technology. He is motivated by creating mobile experiences that are not only functional but also enjoyable and accessible.",
+    "achievements": ["Winner of Smart India Hackathon", "App featured in Google Play"],
+    "projects": [
+      {"title": "Weather App", "image": "images/project5.jpg"},
+      {"title": "Notes App", "image": "images/project6.jpg"}
+    ]
+  },
+  {
+    "name": "Priya Singh",
+    "email": "priya@example.com",
+    "password": "priya123",
+    "profileImage": "images/priya.jpg",
+    "about": "Priya Singh is an AI & ML Enthusiast with hands-on experience in machine learning algorithms, natural language processing, and data analysis. She enjoys solving complex problems using AI techniques and has worked on projects like predictive models, intelligent chatbots, and recommendation systems. Priya regularly participates in hackathons and AI competitions and enjoys sharing her knowledge through workshops and blogs. Her ultimate goal is to use AI to create innovative solutions that positively impact society.",
+    "achievements": ["Kaggle Competitions Winner", "AI Workshop Organizer"],
+    "projects": [
+      {"title": "Chatbot AI", "image": "images/project7.jpg"},
+      {"title": "Image Classifier", "image": "images/project8.jpg"}
+    ]
+  },
+  {
+    "name": "Vivaan Gupta",
+    "email": "vivaan@example.com",
+    "password": "vivaan123",
+    "profileImage": "images/vivaan.jpg",
+    "about": "Vivaan Gupta is a skilled Backend Developer with expertise in server-side technologies, database management, and API design. He focuses on building scalable, secure, and high-performance backend systems. Vivaan has experience working with cloud services, implementing RESTful APIs, and optimizing server workflows. He is passionate about clean architecture, writing maintainable code, and mentoring peers to adopt best practices. Vivaan aims to bridge the gap between frontend and backend to deliver complete solutions.",
+    "achievements": ["Contributed to Open Source Projects", "Internship at Amazon"],
+    "projects": [
+      {"title": "REST API", "image": "images/project9.jpg"},
+      {"title": "Inventory System", "image": "images/project10.jpg"}
+    ]
+  },
+  {
+    "name": "Isha Reddy",
+    "email": "isha@example.com",
+    "password": "isha123",
+    "profileImage": "images/isha.jpg",
+    "about": "Isha Reddy is a talented UI/UX Designer with a passion for creating visually appealing and user-friendly interfaces. She has designed mobile apps, websites, and dashboards with a focus on improving user engagement and experience. Isha loves exploring new design tools, color theories, and typography to craft compelling designs. She enjoys collaborating with developers to ensure that designs are implemented perfectly and is always looking for innovative ways to enhance usability and accessibility.",
+    "achievements": ["Design Award at College Fest", "Freelance Designer"],
+    "projects": [
+      {"title": "Mobile App Design", "image": "images/project11.jpg"},
+      {"title": "Website Redesign", "image": "images/project12.jpg"}
+    ]
+  },
+  {
+    "name": "Aditya Mehta",
+    "email": "aditya@example.com",
+    "password": "aditya123",
+    "profileImage": "images/aditya.jpg",
+    "about": "Aditya Mehta is a Full-stack Developer and Open Source Contributor who enjoys working on both frontend and backend technologies. He has experience in building web applications, deploying to cloud platforms, and integrating APIs efficiently. Aditya also contributes to open source projects, helping the developer community. He enjoys problem-solving, exploring new tech stacks, and sharing his knowledge through coding workshops and tutorials. Aditya aims to build robust applications that provide real-world value.",
+    "achievements": ["Open Source Contribution Award", "Hackathon Winner"],
+    "projects": [
+      {"title": "Social Media App", "image": "images/project13.jpg"},
+      {"title": "Blog Platform", "image": "images/project14.jpg"}
+    ]
+  },
+  {
+    "name": "Saanvi Kapoor",
+    "email": "saanvi@example.com",
+    "password": "saanvi123",
+    "profileImage": "images/saanvi.jpg",
+    "about": "Saanvi Kapoor is a Data Scientist with extensive experience in data analysis, visualization, and machine learning. She works on projects involving predictive analytics, customer insights, and statistical modeling. Saanvi enjoys working with large datasets, deriving actionable insights, and presenting findings in a visually engaging way. She is active in the data science community, participating in competitions and workshops, and her goal is to leverage data to make informed decisions that drive innovation.",
+    "achievements": ["Data Science Bootcamp Graduate", "Kaggle Top 10%"],
+    "projects": [
+      {"title": "Stock Prediction Model", "image": "images/project15.jpg"},
+      {"title": "Customer Segmentation", "image": "images/project16.jpg"}
+    ]
+  },
+  {
+    "name": "Arjun Nair",
+    "email": "arjun@example.com",
+    "password": "arjun123",
+    "profileImage": "images/arjun.jpg",
+    "about": "Arjun Nair is a Mobile and Web Developer with expertise in creating interactive and user-friendly applications. He has built apps for productivity, health, and social networking. Arjun is passionate about learning new programming languages and frameworks, and he enjoys mentoring junior developers. He focuses on creating solutions that are scalable, maintainable, and provide an excellent user experience across devices. His goal is to deliver apps that combine functionality with an intuitive interface.",
+    "achievements": ["Google Developer Student Club Lead", "App of the Month Winner"],
+    "projects": [
+      {"title": "Food Delivery App", "image": "images/project17.jpg"},
+      {"title": "Fitness Tracker App", "image": "images/project18.jpg"}
+    ]
+  },
+  {
+    "name": "Mira Joshi",
+    "email": "mira@example.com",
+    "password": "mira123",
+    "profileImage": "images/mira.jpg",
+    "about": "Mira Joshi is a Software Engineer and AI Enthusiast who enjoys exploring artificial intelligence, machine learning, and innovative software solutions. She has experience in building AI-powered applications, automating workflows, and optimizing software systems. Mira also enjoys research, writing technical articles, and participating in hackathons. She is committed to learning continuously and applying cutting-edge technologies to solve real-world problems efficiently.",
+    "achievements": ["AI Research Paper Published", "Hackathon Finalist"],
+    "projects": [
+      {"title": "AI Chatbot", "image": "images/project19.jpg"},
+      {"title": "Smart Home App", "image": "images/project20.jpg"}
+    ]
+  }
+]

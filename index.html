@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Student Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <style>
+      .password-container {
+        position: relative;
+        margin-bottom: 10px;
+      }
+
+      .password-container input {
+        width: 100%;
+        padding-right: 40px;
+      }
+
+      .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        user-select: none;
+        color: #888;
+        transition: color 0.3s, transform 0.2s ease;
+      }
+
+      .toggle-password:hover {
+        color: #6a11cb;
+        transform: translateY(-50%) scale(1.1);
+      }
+
+      .dark .toggle-password {
+        color: #ccc;
+      }
+
+      .dark .toggle-password:hover {
+        color: #00c6ff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <h2>Login to Portfolio</h2>
+
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required />
+
+        <div class="password-container">
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <span class="material-icons toggle-password" id="togglePassword"
+            >visibility_off</span
+          >
+        </div>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <div class="theme-toggle">
+        <span>Toggle Theme</span>
+        <button id="themeBtn">🌙</button>
+      </div>
+
+      <p id="error" class="error-msg"></p>
+    </div>
+
+    <script>
+      let isAuthenticated = localStorage.getItem("currentUser");
+      if (isAuthenticated) {
+        window.location.href = "profile.html";
+      }
+
+      const togglePassword = document.getElementById("togglePassword");
+      const passwordInput = document.getElementById("password");
+
+      if (togglePassword && passwordInput) {
+        togglePassword.addEventListener("click", () => {
+          const type =
+            passwordInput.getAttribute("type") === "password"
+              ? "text"
+              : "password";
+          passwordInput.setAttribute("type", type);
+          togglePassword.textContent =
+            type === "password" ? "visibility_off" : "visibility";
+        });
+      }
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

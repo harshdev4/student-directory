@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Users</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="mainHeader">
+      <div class="header-container">
+        <div class="logo" onclick="window.location.href='index.html'">
+          Student Portfolio
+        </div>
+        <nav class="desktop-nav">
+          <button
+            class="icon-btn"
+            title="My Profile"
+            onclick="window.location.href='profile.html'"
+          >
+            <span class="material-icons">person</span>
+          </button>
+          <button
+            class="icon-btn"
+            title="Search Users"
+            onclick="window.location.href='search.html'"
+          >
+            <span class="material-icons">search</span>
+          </button>
+          <button class="icon-btn" id="themeBtn" title="Toggle Theme">
+            <span class="material-icons" id="themeIcon">dark_mode</span>
+          </button>
+          <button class="icon-btn" id="logoutBtn" title="Logout">
+            <span class="material-icons">logout</span>
+          </button>
+        </nav>
+
+        <div class="mobile-nav">
+          <button class="icon-btn" id="themeBtnMobile" title="Toggle Theme">
+            <span class="material-icons" id="themeIconMobile">dark_mode</span>
+          </button>
+          <button class="icon-btn" id="menuButton">
+            <span id="menuIconClosed" class="material-icons">menu</span>
+            <span id="menuIconOpen" class="material-icons hidden">close</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobileMenu">
+        <a href="profile.html" class="user-link">
+          <span class="material-icons">person</span> My Profile
+        </a>
+        <a href="search.html" class="user-link">
+          <span class="material-icons">search</span> Search Users
+        </a>
+        <button id="logoutBtnMobile" class="user-link">
+          <span class="material-icons">logout</span> Logout
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by name or email"
+      />
+      <div id="searchResults" class="user-grid"></div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
