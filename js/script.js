@@ -21,9 +21,11 @@ if (theme === "dark") {
 function toggleTheme() {
     if (theme === "dark") {
         localStorage.setItem("theme-port", "light");
+        theme = localStorage.getItem("theme-port");
     }
     else {
         localStorage.setItem("theme-port", "dark");
+        theme = localStorage.getItem("theme-port");
     }
     document.body.classList.toggle('dark');
     const isDark = document.body.classList.contains('dark');
