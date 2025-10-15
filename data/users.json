@@ -1,11 +1,11 @@
 [
   {
-    "name": "Aarav Sharma",
-    "email": "aarav@example.com",
-    "password": "aarav123",
-    "profileImage": "images/aarav.jpg",
-    "about": "Aarav Sharma is a passionate Frontend Developer and UI/UX Designer with a keen eye for detail and aesthetics. He has extensive experience in building responsive web applications, designing user-friendly interfaces, and implementing modern frontend technologies. Aarav loves experimenting with new frameworks and design trends, and he enjoys contributing to open-source projects. His main goal is to create seamless and intuitive digital experiences for users, blending functionality with creativity.",
-    "achievements": ["Won College Hackathon 2023", "Best Portfolio Award"],
+    "name": "Harsh Tiwari",
+    "email": "harsh@example.com",
+    "password": "harsh123",
+    "profileImage": "images/harsh.jpg",
+    "about": "Harsh Tiwari is a passionate Frontend Developer and UI/UX Designer with a keen eye for detail and aesthetics. He has extensive experience in building responsive web applications, designing user-friendly interfaces, and implementing modern frontend technologies. Aarav loves experimenting with new frameworks and design trends, and he enjoys contributing to open-source projects. His main goal is to create seamless and intuitive digital experiences for users, blending functionality with creativity.",
+    "achievements": ["Developed a realtime chatapp", "Developed Portfolio Site"],
     "projects": [
       {"title": "Portfolio Website", "image": "images/project1.jpg"},
       {"title": "Task Manager App", "image": "images/project2.jpg"}
@@ -120,3 +120,4 @@
     ]
   }
 ]
+
